@@ -18,7 +18,7 @@ h6,
 .h6,
 .subtitle {
   font-family: $title-font;
-  color: $text-dark-color;
+  color: $text-dark-color !important;
 }
 
 h1,
@@ -179,9 +179,15 @@ blockquote {
   }
 }
 
+.grnlink{
+  color:$accent-color;
+}
+.dark{
+  color:$text-dark-color;
+}
 a {
   text-decoration: none;
-  color: $text-dark-color;
+  color:$accent-color;
   font-weight: $bold-weight;
   @include transition(all 120ms ease-in-out);
 
