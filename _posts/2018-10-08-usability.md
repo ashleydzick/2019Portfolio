@@ -3,6 +3,7 @@ title: 'Go Home or Go Remote: Usability Testing Anywhere'
 subtitle: 'Learn Why, How, and When to Remote Usability Test'
 date: 2018-09-08 21:00:00
 description: Usability testing is a great way to get quick, iterative feedback and you don’t have to be a “UX Designer” to do it. All you need is something to test and an interest in improving your product for your customers.
+featured_image: '/images/blog/world.jpg'
 ---
 
 You know what you want to test. You know what you want to ask during your test. Now all you need are some participants. Usability testing can be done with anyone and anywhere. Traditionally, usability tests are conducted in person, either by yourself or by a recruiting firm. As a user experience team grows, they also start to reach out to more clients through remote moderated testing. In the last few years, websites such as UserZoom and UserTesting.com have enabled teams of all sizes to be able to test with a wide variety of different subjects through remote unmoderated testing.

@@ -1,8 +1,13 @@
 ---
 title: 'Inclusive Mobile Design System'
-subtitle: 'Manufacturing & IoT, Design Standards, Accessibility, Agile'
-description: Design System and Mobile App Design for Milwaukee Tool.
-featured_image: '/images/portfolio/mfg/cover.png'
+subtitle: 'Design Pattern Library, Accessibility, Agile UX Delivery for Milwaukee Tool'
+description: Over 18 months, I helped completely revamp ONE-KEY's mobile platform, including creating a design pattern system, designing mockups, and conducting usability testing.
+featured_image: 'mfg/tool.png'
+accent_color: '#33861E'
+gallery_images:
+  - mfg/tool.png
+  - mfg/tick.png
+  - mfg/styleguide.jpg
 ---
 
 ![Example of Design System with iOS and Android](/images/portfolio/mfg/MKE Summary.png)

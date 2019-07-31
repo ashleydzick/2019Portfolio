@@ -2,6 +2,7 @@
 title: 'Basic Usability Testing for Developers Ballin’ on a Budget of $0'
 date: 2018-03-11 00:00:00
 description: Usability testing is a great way to get quick, iterative feedback and you don’t have to be a “UX Designer” to do it. All you need is something to test and an interest in improving your product for your customers.
+featured_image: '/images/blog/testing/people.jpeg'
 ---
 
 Usability testing is a great way to get quick, iterative feedback and you don’t have to be a “UX Designer” to do it. All you need is something to test and an interest in improving your product for your customers.

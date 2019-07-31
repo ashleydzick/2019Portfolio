@@ -2,6 +2,7 @@
 title: 'Always Be Asking: What to Test and When'
 date: 2018-06-01 00:00:00
 description: Usability testing is a great way to get quick, iterative feedback and you don’t have to be a “UX Designer” to do it. All you need is something to test and an interest in improving your product for your customers.
+featured_image: '/images/blog/testing/opinion.jpeg'
 ---
 
 Usability testing is great when you know what to test. But what happens when you know that you should test, but you have no idea where to start? Look for small discrepancies, arguments or opinions; anything your team is in unsure about or in disagreement over. Once you tackle basic discussions, you can move onto statistically significant tests and start building a regular cadence.
@@ -22,8 +23,6 @@ To ask for opinions, just find someone you know or work with, who isn’t on you
 ### Drawbacks
 * Does not map to your customer base
 * Not statistically significant
-
-!['Meme with Thats Just You're Opinion Man'](/images/blog/testing/opinion.jpeg)
 
 ## 2. Ask for Clarifications
 Use data you have to find questions. Quantitative data of any nature: analytics, heat-maps, clickstreams, or conversion rates can help you pinpoint where there are potential issues. Is there a page in your analytics where people spend a long time lingering? Does a specific workflow almost always get abandoned? You’ve got the what but you need the why. Take the “what” to your user and either ask them “why” it happened or have them run through it and see for yourself.

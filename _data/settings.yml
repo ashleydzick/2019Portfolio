@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: A. Dzick
+  site_title: ash dzick
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -64,7 +64,7 @@ font_settings:
     weight: 600
     letter_spacing: 0
   h1:
-    size: 64
+    size: 60
     size_small: 42
     weight: 700
     letter_spacing: -1.5
@@ -72,7 +72,7 @@ font_settings:
     line_height: 72
     line_height_small: 48
   h2:
-    size: 48
+    size: 40
     size_small: 36
     weight: 700
     letter_spacing: -1.6
@@ -80,7 +80,7 @@ font_settings:
     line_height: 56
     line_height_small: 44
   h3:
-    size: 40
+    size: 30
     size_small: 30
     weight: 700
     letter_spacing: -1.4

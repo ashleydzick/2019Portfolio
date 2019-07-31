@@ -25,30 +25,7 @@
         background-repeat: no-repeat;
         background-size: cover;
 
-        &--new {
-          &::before {
-            content: "NEW";
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 48px;
-            height: 48px;
-            background-color: $accent-color;
-            color: white;
-            border: 2px solid white;
-            border-radius: 100%;
-
-            font-family: $title-font;
-            font-weight: $bold-weight;
-            font-size: 10px;
-
-            position: absolute;
-            top: -28px;
-            right: 30px;
-
-            transform: rotate(30deg);
-          }
-        }
+        
       }
 
       .post__content-wrap {
