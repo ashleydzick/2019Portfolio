@@ -13,7 +13,6 @@ menu_settings:
     - title: 'Blog'
       url: '/blog/'
 
-
 footer_settings:
   logo_image: 
   logo_width: 100
@@ -89,7 +88,7 @@ font_settings:
     line_height: 48
     line_height_small: 36
   h4:
-    size: 32
+    size: 24
     size_small: 28
     weight: 700
     letter_spacing: -1

@@ -1,0 +1,49 @@
+---
+layout: default
+title: focused on users, driven by data
+description: I create responsive designs for traditional and emerging tech through inclusive design and in-depth research.
+featured_image: /images/social.jpg
+---
+
+<div class="page-home">
+
+	{% if site.data.settings.hero_settings.background_image %}
+	<img src="{{ site.data.settings.hero_settings.background_image }}" class="hero__background" draggable="false">
+	{% endif %}
+
+	<section class="listing">
+		<div class="wrap">
+			<h2>Resume</h2>			
+			
+			<p><a href="">Download a PDF version</a></p>
+			
+			<h3>Work History</h3>
+			<h4>Milwaukee School of Engineering</h4>
+			<p>Adjunct Instructor, May 2017 - Present</p>
+			<ul>
+				<li>Revamped entire UX degree, alongside two professors, leading to renewed interest campus-wide</li>
+				<li>Mentored mentor undergraduate and graduate students, assisting in obtaining full-time jobs</li>
+				<li>Topics taught include: user experience, psychology of design, organizational psychology, knowledge and content management, creative thinking, data visualization and digital portfolio</li>
+			</ul>
+		</div>
+	</section>
+
+	{% include section__about.html %}
+
+	<section class="recent-posts">
+		<div class="wrap grid">
+			<header class="recent-posts__header">
+				<h4>Recent Blog Posts</h4>
+				<a href="/blog" class="action button--text--accent --right">All Posts</a>
+			</header>
+
+			<div class="recent-posts__list grid">
+				{% for post in site.posts limit: 3 %}
+				{% include component__post-preview.html %}
+				{% endfor %}
+			</div>
+
+			<a href="/blog" class="action-bottom button--text--accent --right">All Posts</a>
+		</div>
+	</section>
+</div>

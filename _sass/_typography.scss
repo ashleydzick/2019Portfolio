@@ -182,6 +182,10 @@ blockquote {
 .grnlink{
   color:$accent-color;
 }
+.mgn{
+  margin-bottom:8px;
+}
+
 .dark{
   color:$text-dark-color;
 }
@@ -193,6 +197,7 @@ a {
 
   &:hover {
     color: $accent-color;
+    text-decoration:underline;
   }
 }
 

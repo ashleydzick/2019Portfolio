@@ -6,7 +6,7 @@
 
 .page-post {
   .post__header {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .post__title {
@@ -54,7 +54,7 @@
     }
 
     h2 {
-      margin: 80px 0 16px;
+      margin: 40px 0 16px;
     }
 
     h3,
@@ -181,7 +181,7 @@
 
   @include mq(tabletp) {
     .post__header {
-      padding-bottom: 20px;
+      padding-bottom: 10px;
     }
 
     .post__title {
