@@ -17,14 +17,6 @@ gallery_images:
 ## Summary
 SafeNet Consulting wanted to build an Internet of Things (IoT) solution for the office. The first part of the project was to set up conference rooms with sensors and switches for monitoring and controlling functions. I helped with everything from initial feature definition to creating the final mockups and testing. 
 
-I also wrote a series on building a chatbot for SafeNet Consulting (which I used for this chatbot!)
-
-1. [Do you even need a chatbot?](https://safenetconsulting.com/blog/should-you-invest-in-building-a-chatbot/) 
-2. [Craft your chatbot personas](https://safenetconsulting.com/blog/use-personas-to-build-empathy-for-your-end-user/) 
-3. [Build your bot personality](https://safenetconsulting.com/blog/building-your-bot-personality/)
-4. [Create your conversation](https://safenetconsulting.com/blog/creating-a-conversation-with-your-chatbot/)
-
-
 [View Working Prototype](https://xd.adobe.com/view/b01ae6e2-4fd6-4b3b-71d4-fc28b1afa4aa-c62b/?fullscreen)
 
 
