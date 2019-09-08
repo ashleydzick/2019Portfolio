@@ -1,0 +1,334 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	ash dzick
+
+	Made Theme by https://jekyllthemes.io
+	Premium + free Jekyll themes for your blog or website.
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/favicon.png">
+	<title>Before You Build a Chatbot [Part 1] – ash dzick</title>
+	<meta name="description" content="">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title"
+		content="Before You Build a Chatbot [Part 1] – ash dzick">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="http://localhost:4000">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title"
+		content="Before You Build a Chatbot [Part 1] – ash dzick" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="http://localhost:4000" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js"
+		integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL"
+		crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js"
+		integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe"
+		crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style>
+		
+	</style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+
+</head>
+
+
+<body class="loading ajax-loading"
+	data-site-url="http://localhost:4000" data-page-url="/blog/build-chatbot">
+
+
+	<header class="header--main">
+
+	<div class="wrap grid__2-col">
+
+		
+		<a href="/" class="header__title">
+			ash dzick
+		</a>
+		
+
+		<div class="menu__toggle js-menu-toggle">
+			<div class="menu__toggle__icon"><span></span></div>
+		</div>
+
+		<nav class="header__menu">
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					
+					<li class="menu__list__item">
+						<a href="/project/" class="menu__list__item__link button--text">Projects</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/blog/" class="menu__list__item__link button--text">Blog</a>
+					</li>
+					
+					<li class="menu__cta">
+						<a href="#" class="menu__cta__link button--text contact-trigger js-contact">Get In Touch</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<a href="#" class="header__cta button--fill contact-trigger js-contact">Get In Touch</a>
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="15" cy="15" r="15">
+				<animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear"
+					repeatCount="indefinite" />
+				<animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear"
+					repeatCount="indefinite" />
+			</circle>
+			<circle cx="60" cy="15" r="9" fill-opacity="0.3">
+				<animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear"
+					repeatCount="indefinite" />
+				<animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5"
+					calcMode="linear" repeatCount="indefinite" />
+			</circle>
+			<circle cx="105" cy="15" r="15">
+				<animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear"
+					repeatCount="indefinite" />
+				<animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear"
+					repeatCount="indefinite" />
+			</circle>
+		</svg></div>
+
+	<div class="page-loader"></div>
+
+
+	<div class="page">
+		<div class="page__content"
+			data-page-title="Before You Build a Chatbot [Part 1] – ash dzick">
+			
+			<section class="contact">
+  <button class="button--close-modal"></button>
+
+  <div class="wrap">
+    <div class="contact__wrap">
+      <header class="contact__header">
+        <h2 class="title">Get In Touch</h2>
+        <p class="subtitle--light">Prefer using email? Say hi at <a
+            href="mailto: a.dzick@gmail.com">a.dzick@gmail.com</a>
+        </p>
+      </header>
+
+      <form method="POST" action="https://formspree.io/a.dzick@gmail.com" class="contact__form">
+        <div class="input-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="What should I call you?" />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="What's your email address?" />
+        </div>
+
+        <div class="input-group">
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" placeholder="What’s on your mind?" rows="4"></textarea>
+        </div>
+
+        <div class="input-submit">
+          <input type="submit" class="button--fill" value="Get in Touch">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+			
+			<div class="page-post">
+
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<h1 class="post__title">Before You Build a Chatbot [Part 1]</h1>
+			<time class="post__date label">15 July 2019</time>
+		</div>
+
+
+
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+
+			<article class="post__content ">
+				<p><em>Part 1 of a 2 Part Series</em></p>
+
+<p>Chatbots are everywhere. You can order products, contact customer support, take a class, do your finances and even start getting therapy all through a chatbot. Leveraging chatbot technology helps many companies meet increasing consumer expectations around information availability and user experience, as well as internally increase efficiency and automation.</p>
+
+<p>A chatbot, at its core, is just a computer service that automates tasks. More advanced chatbots leverage artificial intelligence to help them understand more advanced chat rules, taxonomy trees, and personalized requests. </p>
+
+<blockquote>
+  <p>80% of businesses already use or are planning on using a chatbot by 2020. - <a href="https://www.businessinsider.com/80-of-businesses-want-chatbots-by-2020-2016-12">Business Insider</a></p>
+</blockquote>
+
+<p>Chatbot technology isn’t terribly difficult, but developing a chatbot that actually gets used requires an entirely different mindset. Chatbot design and workflows are based on conversations and personality, not on traditional design patterns. Before making a substantial investment in chatbots, consider the alternatives. Is there a better way you can be spending your money?</p>
+
+<h2 id="1-are-you-technologically-prepared">1. Are you technologically prepared?</h2>
+<p>Building a chatbot can be a natural step forward, but some other investments might provide higher returns.</p>
+
+<h3 id="is-your-website-responsive">Is your website responsive?</h3>
+<p>Responsive web design is no longer optional. Mobile traffic accounts for more than half of all traffic and Google’s search algorithm penalizes websites that aren’t sufficiently mobile-friendly. Mobile devices are projected to reach 79% by the end of 2019. If your website isn’t responsive and incredibly mobile-friendly, users will not trust you with a chatbot.</p>
+
+<h3 id="do-you-have-a-team-with-the-needed-skills">Do you have a team with the needed skills?</h3>
+<p>Having a UX team and a development team is a great start. Have they worked with conversational design and AI before? If not, you’ll also need to consider training and investment costs on top of the cost of building your chatbot. Partnering with an external firm is also an option, but that’s also an additional expense.</p>
+
+<h3 id="are-your-other-systems-equipped-appropriately">Are your other systems equipped appropriately?</h3>
+<p>Chatbots will need to access and input data into your system. Are you confident in your system’s ability to handle the additional load. If you’re not in the cloud, focus on that first. Many platforms can integrate with your systems, such as Microsoft Azure’s Bot Connector Service, Smooch and Recast. The rest of this series will focus primarily on the UX of chatbots, but understanding technical feasibility will make sure you aren’t spending money on a chatbot you aren’t ready to implement. </p>
+
+<h3 id="do-you-understand-your-specific-chatbot-needs">Do you understand your specific chatbot needs?</h3>
+<p>What is your goal of developing a chatbot? If you just want to stay on top of the latest technology trends, consider if blockchain, neural networks, augmented or mixed reality, or other technologies are where you should be investing your time.</p>
+
+<p>Here are a few common questions for chatbots that you should think about before making a chatbot investment.</p>
+<ul>
+  <li>Why would this be more beneficial to a user than just using a website or mobile app?</li>
+  <li>How many of the tasks they can do on your website/phone/etc. are going to be included?</li>
+  <li>Can you use the chatbot for simple commands only?</li>
+  <li>What happens if a user tries to do something that the chatbot can’t do?</li>
+  <li>Does your service need “rich” interactions like images or video?</li>
+  <li>Does the information from a conversation need to be always accessible?</li>
+</ul>
+
+<p>Are there security risks and sensitive information that needs to be accounted for?</p>
+
+<p>If you have a good understanding of why a user will use your chatbot and a general idea of what tasks they can perform, you’re ready to start building your chatbot’s user experience!</p>
+
+<hr />
+<h2 id="2-use-personas-to-build-empathy-for-your-end-user">2. Use Personas to Build Empathy For Your End User</h2>
+<p>A persona is a snapshot of user groups, based on a user’s needs, wants, behaviors, expectations, and individual impairments. Personas help your entire team to build empathy towards the end user; it reminds the team of why this product or service even exists.</p>
+
+<h3 id="identify-your-target">Identify Your Target</h3>
+<p>Companies usually have a wide variety of users, each with different experiences, technology backgrounds, and abilities. Users can be vastly different across business lines and product offerings. Don’t try to tackle every persona group all at once. Find your focus. Which current and potential users are going to be the best suited for your technology offering? </p>
+
+<h3 id="any-data-is-better-than-none">Any Data is Better Than None</h3>
+<p>Persona development usually starts with some data and a fact-finding mission. This includes usability testing, help desk requests, market or field research and any other qualitative and quantitative data you can find.</p>
+
+<p>The information included in personas range wildly and can include user needs, expectations, goals, frustrations, demographics, technology or individual personality traits. After data is gathered and significant trends identified, customers are segmented into groups. Usually, each group (persona) is given a fake name; it adds a personal feel to the customer segments and makes it easier to reference. </p>
+
+<p>Sometimes you don’t have any data to leverage. When this happens, make your best guess about who your customers might be. As you’re able to gather more information, iterate and refine your personas regularly.</p>
+
+<h3 id="put-it-together-give-it-a-name">Put it Together, Give it a Name</h3>
+<p>Each persona should include unique information, but don’t make each uniquely designed. Choose a structure that you’re able to use across every persona. Personas can take many shapes. A barebones persona might be a sketch or a text document. Other personas involve videos, imagery or well-designed posters. The best format for a persona is the one that is going to be leveraged by the team.</p>
+
+<h3 id="personas-for-chatbots">Personas for Chatbots</h3>
+<p>Personas are a great way to continue building out a delightful user experience for your chatbots. Chatbot users are going to be a subset of your overall user base.</p>
+
+<p>Think about why they’re using your product or service, but also why they would want to use a chatbot.</p>
+<ul>
+  <li>What are their unique needs and frustrations?</li>
+  <li>How can they accomplish their goals by leveraging your chatbot?</li>
+  <li>What is keeping them from just using a mobile app, website or other interaction?</li>
+  <li>Is a chatbot the right fit for your audience?</li>
+</ul>
+
+<hr />
+<h2 id="3-building-your-bot-personality">3. Building Your Bot Personality</h2>
+<p>Chatbots have a unique opportunity to give your brand a distinct voice and personality. Conversation is more personal, impactful and engaging than just interacting with a website on their own.</p>
+
+<h3 id="start-with-your-brand">Start with Your Brand</h3>
+<p>Brands have personalities of their own, which chatbots should reflect. Is there a certain image that your brand wants to uphold or change? Are there other brands that you’re trying to reflect? Consider if your brand is playful or professional, funny or serious, quirky or matter-of-fact. How does your target audience see your brand? If your company already has a content strategy defined, leverage it within your chatbot. If you do not, start building a brand vocabulary of specific words that the chatbot should or should not use. (“Customers”, not “Users”; “TV”, not “Television”, “email”, not “E-Mail”).</p>
+
+<h3 id="think-about-voice-and-tone">Think About Voice and Tone</h3>
+<p>The voice of your chatbot is consistent and reflects the overall personality of your chatbot. Think about your chatbot as if it were actually speaking aloud. The voice it uses would be like a voice you or I used. It’s relatively consistent, regardless of who you are speaking to. Tone changes. In a more serious situation, the tone of your voice might be more subdued, or upbeat and bouncier in a happy situation. Most brands will have a combination of neutral, positive and serious interactions. Ensure you’ve got the right tone identified for each scenario.</p>
+
+<h3 id="casual-and-simple-but-not-too-much">Casual and Simple, But Not Too Much</h3>
+<p>Your chatbot should be able to hold a simple conversation and talk to your users like a human would. If you instead had a human interacting with the user, how would that human interact with your user? How would your user respond? How do your users refer to things in general? Does your user base have a certain reading or educational level you should account for? Aim for professional, yet friendly.</p>
+
+<p>Ultimately, the user is trying to accomplish a goal or task. By coming across as too casual, your chatbot (or even your brand), won’t be taken seriously. Avoid slang and overly cutesy language. There might be some instances where a chatbot needs to be “hip”, but you can do that without pandering. Ultimately, be courteous.</p>
+
+<h3 id="bring-it-all-together">Bring it All Together</h3>
+<p>If you haven’t already, build your target audience. Once you’ve got your target audience identified, you can think about how they interact with your brand. How would someone from your company interact with your audience if they were interacting in person?</p>
+
+<p>Identify common scenarios that users will interact with your chatbot and set an appropriate tone for each. Look for certain keywords from the user that will help identify which scenario the chatbot should follow.</p>
+
+<p>Strike up a simple and casual conversation, but keep it courteous. There’s less formality expected of a chatbot (and too much comes across as rigid), but its still a chatbot that is reflecting your own company.</p>
+
+<p>Once you’ve got an idea of your personality, you’re ready to start building your workflows!</p>
+
+
+			</article>
+
+			<div class="post__more grid">
+				
+				<a class="prev-post subtitle" href="/blog/prod-research">Getting Started with Product Research</a>
+				
+				
+			</div>
+
+		</div>
+
+	</section>
+
+</div>
+
+		</div>
+	</div>
+
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/plugins/debounce.js"></script>
+	<script src="/js/plugins/fluidbox.js"></script>
+	<script src="/js/plugins/history.js"></script>
+	<script src="/js/plugins/imagesloaded.js"></script>
+	<script src="/js/plugins/masonry.js"></script>
+	<script src="/js/plugins/owl.js"></script>
+	<script src="/js/plugins/waypoints.js"></script>
+	<script src="/js/made.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>
