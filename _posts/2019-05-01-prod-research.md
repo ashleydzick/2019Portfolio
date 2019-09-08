@@ -6,8 +6,6 @@ featured_image: '/images/blog/dog.jpg'
 
 ---
 
-Originally posted on [SafeNet Consulting](https://safenetconsulting.com/blog/getting-started-with-product-research/)
-
 Product research is frequently forgotten or pushed aside because of a lack of resources and understanding. In product research, you conduct qualitative and quantitative studies to develop a deeper understanding of current and potential customers. It [reduces uncertainty](https://medium.com/airbnb-design/embracing-uncertainty-in-ux-research-973a962b2e8e) in decisions and removes assumptions, helping to mitigate risk and focuses investments on concepts and features that will increase revenue and customer retention.
 
 By investing in research, you’re able to:
