@@ -11,10 +11,15 @@ featured_image: /images/social.jpg
 	<img src="{{ site.data.settings.hero_settings.background_image }}" class="hero__background" draggable="false">
 	{% endif %}
 
-	<section class="listing">
+	<header class="header--single">
 		<div class="wrap">
-			<h2>Projects</h2>
-			
+			<h1 class="header__title">Projects</h1>
+			<p>I have several projects that I can't display here for NDA or other reasons. <a href="contact">Reach out</a> and I'll happily walk you through them.</p>
+		</div>
+	</header>
+
+	<section class="">
+		<div class="wrap">
 			{% for project in site.projects reversed %}
 
 			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}

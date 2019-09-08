@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/thanks</loc>
-<lastmod>2019-09-08T13:19:04-05:00</lastmod>
+<lastmod>2019-09-08T13:49:12-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/usability-no-budget</loc>
@@ -34,15 +34,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/project/chatbot</loc>
-<lastmod>2019-09-08T13:19:04-05:00</lastmod>
+<lastmod>2019-09-08T13:49:12-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/project/inclusive-patterns</loc>
-<lastmod>2019-09-08T13:19:04-05:00</lastmod>
+<lastmod>2019-09-08T13:49:12-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/project/workshop</loc>
-<lastmod>2019-09-08T13:19:04-05:00</lastmod>
+<lastmod>2019-09-08T13:49:12-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/chatbot.html</loc>
