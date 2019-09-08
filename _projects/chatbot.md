@@ -3,12 +3,14 @@ title: 'IoT Chatbot'
 subtitle: 'IoT, Chatbots, Voice Interfaces, Personas, Workflows'
 description: SafeNet wanted to create a chatbot to help with conference room automation and setup. I worked on the overall flow of the chatbot, as well as the finalized design.
 gallery_images:
+  - chatbot/screenshots.png
   - chatbot/workflow.png
   - chatbot/persona.png
   - chatbot/branding.png
 ---
 
 <div class="gallery" data-columns="1">
+  <img src="/images/projects/chatbot/screenshots.png">
 	<img src="/images/projects/chatbot/workflow.png">
 	<img src="/images/projects/chatbot/persona.png">
 	<img src="/images/projects/chatbot/branding.png">

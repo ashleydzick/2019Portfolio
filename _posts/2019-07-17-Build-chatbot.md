@@ -1,11 +1,11 @@
 ---
-title: 'Before You Build a Chatbot [Part 1]'
-date: 2019-07-15 22:00:00
-description: 
-featured_image: ''
+title: 'Building Better ChatBot UX [Part 1]'
+date: 2019-08-15 22:00:00
+description: 'Before you dive into the technologies behind your chatbot, start with building out your chatbot UX. This two part series around chatbox UX will help you to build a better chatbot.'
+featured_image: '/images/blog/chatbot.jpg'
 
 ---
-*Part 1 of a 2 Part Series*
+*Part 1 of a 2 Part Series. Part 1 will explore what you should do BEFORE you build your chatbot.*
 
 
 Chatbots are everywhere. You can order products, contact customer support, take a class, do your finances and even start getting therapy all through a chatbot. Leveraging chatbot technology helps many companies meet increasing consumer expectations around information availability and user experience, as well as internally increase efficiency and automation.
@@ -84,7 +84,7 @@ Your chatbot should be able to hold a simple conversation and talk to your users
 
 Ultimately, the user is trying to accomplish a goal or task. By coming across as too casual, your chatbot (or even your brand), won’t be taken seriously. Avoid slang and overly cutesy language. There might be some instances where a chatbot needs to be “hip”, but you can do that without pandering. Ultimately, be courteous. 
 
-### Bring it All Together
+#### Bring it All Together
 If you haven’t already, build your target audience. Once you’ve got your target audience identified, you can think about how they interact with your brand. How would someone from your company interact with your audience if they were interacting in person?
 
 Identify common scenarios that users will interact with your chatbot and set an appropriate tone for each. Look for certain keywords from the user that will help identify which scenario the chatbot should follow.
