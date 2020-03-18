@@ -8,10 +8,6 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/project/'
-    - title: 'Blog'
-      url: '/blog/'
 
 footer_settings:
   logo_image: 
